@@ -5,7 +5,7 @@
         </a>
         {if $IsSubscriptionEnabled}
             <button id="subscribeToCalendar" type="button" class="btn btn-sm btn-link link-primary"
-                title="{translate key=SubscribeToCalendar}"
+                title="{translate key=CopyUrlToClipboard}"
                 onclick="copyUrlToClipboard('{$SubscriptionUrl|escape:'javascript'|escape:'html'}');"><i class="bi bi-calendar-heart"></i>
                 {translate key=SubscribeToCalendar}
             </button>
